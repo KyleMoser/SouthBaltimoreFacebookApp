@@ -1,0 +1,10 @@
+During app review request:
+
+1) Features - Groups API
+2) Permissions publish_to_groups 
+
+NOTE: there is conflicting info saying you need groups_access_member_info permission on another FB page.
+
+According to https://developers.facebook.com/docs/video-api/guides/get-videos/ you need:
+1) A User access token requested by a person who manages the group
+2) The publish_to_groups permission
