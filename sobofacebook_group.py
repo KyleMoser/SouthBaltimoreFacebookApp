@@ -1,6 +1,5 @@
 import requests
 
-
 #fields_list must be a comma separated list of field names, see Facebook Graph API for more info
 def get_facebook_node(facebook_node_id, fields_list, token):
     payload = {'fields' : fields_list, 'access_token': token}
@@ -10,7 +9,7 @@ def get_facebook_node(facebook_node_id, fields_list, token):
     return video_metadata['source']
 
 facebook_test_group_url = "1776313662555626"
-facebook_access_token = "EAACwNOuFtmwBAFPYWT6DazDe4OqKtcksbNTNpz3ygidtwVLEdrdMYIjS8fcA4oxIbyyIT9EkisZCHLce9W7ULaSQddvL7QtYU6cqJS1M02RGhj3INkZAX8SZCFWxMmZACuyHKAwcwNZBquEanVoSNl1SRs2d85sagPfL68Hqo4ZAKjgtalnD0Fa0PGsacuEo7OwlxAB2xptQZDZD"
+facebook_access_token = ""
 facebook_video_fields = "?fields=source"
 facebook_graphs_api_base = "https://graph.facebook.com/v12.0/"
 
