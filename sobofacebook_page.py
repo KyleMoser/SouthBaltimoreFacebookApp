@@ -1,3 +1,6 @@
+"""
+Get a list of video links posted to the facebook page and email the links
+"""
 import requests
 
 #fields_list must be a comma separated list of field names, see Facebook Graph API for more info
